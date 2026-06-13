@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* adjust as needed */
+    z-index: -1;
+}
+
+div{
+    margin-top: 2em;
+    width: 100vw;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px #000000;
+}
+
+button{
+    padding: 0.5em;
+    font-size: 1.25rem;
+    width: 60px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#increment{
+    background-color: #085708;
+}
+#decrement{
+    background-color: #731919;
+}
+#btn{
+    margin: 0 auto;
+}
+#save-el{
+    background-color: rgb(41, 81, 161);
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    width: 130px;
+}
+
+
